@@ -21,6 +21,49 @@
 4. กด Run ▶️  
 5. โปรแกรมจะแสดงธงเดนมาร์กบนหน้าจอ  
 
+
+## 🧾 Source Code
+
+```asm
+org 100h
+
+mov ax, 13h
+int 10h
+
+mov ax, 0A000h
+mov es, ax
+
+mov di, 0
+mov cx, 32000    
+mov ax, 0404h    
+rep stosw
+
+mov di, 27200    
+mov cx, 4800     
+mov ax, 0F0Fh    
+rep stosw
+
+mov cx, 200      
+mov di, 100      
+mov ax, 0F0Fh    
+
+draw_vertical:
+    push cx
+    mov cx, 15   
+    rep stosw
+    pop cx
+    add di, 290  
+    loop draw_vertical
+
+mov ah, 00h
+int 16h
+
+mov ax, 03h
+int 10h
+
+mov ah, 4Ch
+int 21h
+
 ---
 
 ## ✨ คุณสมบัติของโปรแกรม
