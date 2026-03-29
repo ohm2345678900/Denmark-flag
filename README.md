@@ -79,4 +79,5 @@ int 21h
 
 
 ## 📷 ตัวอย่างผลลัพธ์
----<img width="1919" height="1028" alt="สกรีนช็อต 2026-03-29 215838" src="https://github.com/user-attachments/assets/4740e013-6b46-48ad-9448-faf0dcb60b63" />
+<img width="1919" height="1028" alt="สกรีนช็อต 2026-03-29 215838" src="https://github.com/user-attachments/assets/796ce5ab-a3cb-4006-b092-73394664c317" />
+
