@@ -1,4 +1,4 @@
-# Denmark Flag - Assembly (EMU8086)
+# Kuwait Flag - Assembly (EMU8086)
 
 ## 📌 คำอธิบายโปรเจค
 โปรเจคนี้เป็นการเขียนโปรแกรมภาษา Assembly เพื่อวาด "ธงชาติคุเวต" โดยใช้โปรแกรม EMU8086  
